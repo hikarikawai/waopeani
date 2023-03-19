@@ -1,6 +1,6 @@
-const sessionName = "yusril";
-const donet = "https://saweria.co/sansekai";
-const owner = ["6287878817169"]; // Put your number here ex: ["62xxxxxxxxx"]
+const sessionName = "rexa";
+const donet = "https://link.dana.id/minta/2rz61h1tvt";
+const owner = ["6289677134384"]; // Put your number here ex: ["62xxxxxxxxx"]
 const {
   default: sansekaiConnect,
   useMultiFileAuthState,
@@ -279,7 +279,7 @@ async function startHisoka() {
       }
     } else if (connection === "open") {
       console.log(color("Bot success conneted to server", "green"));
-      console.log(color("Donate for creator https://saweria.co/sansekai", "yellow"));
+      console.log(color("Donate for creator https://link.dana.id/minta/2rz61h1tvt", "yellow"));
       console.log(color("Type /menu to see menu"));
       client.sendMessage(owner + "@s.whatsapp.net", { text: `Bot started!\n\njangan lupa support ya bang :)\n${donet}` });
     }
